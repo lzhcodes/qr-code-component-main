@@ -5,7 +5,16 @@ body {
 .center {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 100px;
+}
+
+.qr {
+  background-color: hsl(0, 0%, 100%);
+  width: 275px;
+  height: 475px;
+  border-radius: 5%;
+  padding: 20px;
+  box-shadow: 1px 1px 40px hsl(220, 15%, 70%);
 }
 
 .qrimg {
@@ -34,19 +43,17 @@ p {
   color: hsl(220, 15%, 55%);
 }
 
-.qr {
-  background-color: hsl(0, 0%, 100%);
-  width: 275px;
-  height: 475px;
-  border-radius: 5%;
-  padding: 20px;
-  box-shadow: 1px 1px 40px hsl(220, 15%, 70%);
-}
-
 .attribution {
-  font-size: 11px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   text-align: center;
   padding: 10px;
+}
+
+.attribution p {
+  font-size: 11px;
 }
 
 .attribution a {
